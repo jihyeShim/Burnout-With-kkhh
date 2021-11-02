@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+
+
+html{font-size: 10px; background-color: white; z-index: 1; cursor: url(img/cursor2.png), auto;}
+
+body
+{
+    margin: 0px;
+    font-family: 'Noto Serif KR', serif;
+    font-family: 'Song Myung', serif;
+}
+
+
+.col-1{width: 91.63%; padding: 0px 10px;}
+
+.text-NotoSerif{font-family: 'Noto Serif KR';}
+
+.text-start{margin-top: 185px;}
+
+.text-size-38pt{font-size: 3.8rem;}
+
+.text-align-left{text-align: left;}
+
+
+#burn{
+    position: absolute;
+    
+    left: 144rem;
+    top: 5rem;
+    font-size: 12.5rem;
+    z-index: 2;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    color: white;
+}
+
+#o{
+    position: absolute;
+    
+    left: 144rem;
+    top: 18rem;
+    font-size: 12.5rem;
+    z-index: 2;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    color: white;
+}
+
+#ut{
+    position: absolute;
+    
+    left: 144rem;
+    top: 30rem;
+    font-size: 12.5rem;
+    z-index: 2;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    color: white;
+}
+
+
+
+#mainContainer{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+
+
+#fish1_01{
+    width: 130rem;
+    height: 76rem;
+    position: absolute;
+    top: 10rem;
+    left: 56rem;
+    background-image: url(img/fish1_plain_bgO.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(50deg);
+    z-index: 1;
+
+    transition-duration: 0.3s;
+
+    animation-name: myAni;
+}
+
+@keyframes myAni{
+    0%{}
+    100%{}
+}
+
+
+#fish1_01:active{
+
+    transform: rotate(35deg);
+    background-image: url(img/fish1_click_bgO.png);
+}
+
+
+#fish2_01{
+    width: 103rem;
+    height: 47rem;
+    position: absolute;
+    top: 34rem;
+    left: -6rem;
+    background-image: url(img/fish2_plain_bgO.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(-25deg);
+    z-index: 1;
+
+    transition-duration: 0.3s;
+
+    animation-name: myAni;
+}
+
+@keyframes myAni{
+    0%{}
+    100%{}
+}
+
+#fish2_01:active{
+
+    transform: rotate(-40deg);
+    background-image: url(img/fish2_click_bgO.png);
+}
+
+
+
+#fish1_02{
+    width: 30rem;
+    height: 15rem;
+    position: absolute;
+    top: 5rem;
+    left: 21rem;
+    background-image: url(img/fish1_plain_bgO.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    z-index: 1;
+
+    transition-duration: 0.3s;
+
+    animation-name: myAni;
+}
+
+@keyframes myAni{
+    0%{}
+    100%{}
+}
+
+
+#fish1_02:active{
+    transform: rotate(170deg);
+    background-image: url(img/fish1_click_bgO.png);
+}
+
+
+
+#leaf1{
+    width: 90rem;
+    height: 80rem;
+    position: absolute;
+    top: -35rem;
+    left: 11rem;
+    background-image: url(img/leaf_plain.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(58deg);
+
+    opacity:0.5!important; 
+}
+
+#leaf1:active{
+    background-image: url(img/leaf_click.png);
+}
+
+#leaf2{
+    width: 73rem;
+    height: 68rem;
+    position: absolute;
+    top: 23rem;
+    left: 65rem;
+    background-image: url(img/leaf_plain.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(-88deg);   
+}
+
+#leaf2:active{
+    background-image: url(img/leaf_click.png);
+}
+
+
+#leaf3{
+    width: 40rem;
+    height: 35rem;
+    position: absolute;
+    top: 5rem;
+    left: 107rem;
+    background-image: url(img/leaf_plain.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform:rotate(90deg);
+    -moz-transform: scaleX(-1); 
+      -o-transform: scaleX(-1); 
+ -webkit-transform: scaleX(-1); 
+         transform: scaleX(-1);   
+        filter: FlipH;
+   -ms-filter: "FlipH";
+
+   opacity:0.6!important; 
+}
+
+#leaf3:active{
+    background-image: url(img/leaf_click.png);
+}
+
+
+#leaf4{
+    width: 30rem;
+    height: 26rem;
+    position: absolute;
+    top: 30rem;
+    left: 13rem;
+    background-image: url(img/leaf_plain.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(3deg);
+}
+
+#leaf4:active{
+    background-image: url(img/leaf_click.png);
+}
+
+
+
+
+
+#egg1{
+    width: 60rem;
+    height: 45rem;
+    position: absolute;
+    top: 40rem;
+    left: 38em;
+    background-image: url(img/egg_plain.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(25deg);
+    z-index: 0;
+
+    opacity:0.7!important; 
+}
+
+#egg1:active{
+    background-image: url(img/egg_click1.png);
+}
+
+
+#egg2{
+    width: 130rem;
+    height: 85rem;
+    position: absolute;
+    top: -10rem;
+    left: -45rem;
+    background-image: url(img/egg_plain.png);
+    background-size: contain;
+
+    transform: rotate(-60deg);
+    z-index: 0;
+
+    opacity:0.3!important; 
+}
+
+#egg2:active{
+    background-image: url(img/egg_click2.png);
+    transform: rotate(0deg);
+    top: 15rem;
+}
+
+
+#movie video{
+    width: 100%; top: 0px; 
+}
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 10px;
+}
+
+#container div{
+    width: 10rem;
+    height: 10rem;
+    background-color: black;
+    display: inline-block;
+    font-size: 2rem;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+#myVideo{
+    width: 100%; top: 0px; 
+}
